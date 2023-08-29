@@ -1,0 +1,1892 @@
+[
+  {
+    "outlet": [
+      {
+        "id": "92c3c3a5-2622-4753-b92f-2a67d8f3ee4e",
+        "name": "Outlet 1",
+        "address": "111 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-28T12:57:36.213Z",
+        "updated_at": "2023-08-28T22:25:51.079Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7549182c-66bb-43e0-a53a-e5bf7d09c86d",
+        "name": "Outlet 2",
+        "address": "222 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T10:55:33.210Z",
+        "updated_at": "2023-08-28T11:59:33.305Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fea4f439-c70b-4b4c-8790-27329754e0a6",
+        "name": "Outlet 3",
+        "address": "333 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-29T06:28:06.259Z",
+        "updated_at": "2023-08-28T17:52:19.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f2e04fad-4836-4d68-9508-6a95b5b9f13b",
+        "name": "Outlet 4",
+        "address": "444 Maple Road",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-28T12:02:18.797Z",
+        "updated_at": "2023-08-29T08:01:35.541Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f65b632a-d729-40b0-97fe-e9dea222eb19",
+        "name": "Outlet 5",
+        "address": "555 Pine Boulevard",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19101",
+        "created_at": "2023-08-29T10:32:36.573Z",
+        "updated_at": "2023-08-29T07:18:09.709Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "fdd7e564-06b2-40c1-bb61-71cee6f13a0c",
+        "name": "Tool 1",
+        "type": "Power tool",
+        "brand": "Brand A",
+        "model": "Model 1",
+        "availability": true,
+        "created_at": "2023-08-29T10:26:16.041Z",
+        "updated_at": "2023-08-28T14:41:25.725Z",
+        "outlet_id": "f2e04fad-4836-4d68-9508-6a95b5b9f13b"
+      },
+      {
+        "id": "86943760-6503-4824-a402-56a296ab6cae",
+        "name": "Tool 2",
+        "type": "Hand tool",
+        "brand": "Brand B",
+        "model": "Model 2",
+        "availability": true,
+        "created_at": "2023-08-28T16:54:10.284Z",
+        "updated_at": "2023-08-29T06:07:10.469Z",
+        "outlet_id": "f65b632a-d729-40b0-97fe-e9dea222eb19"
+      },
+      {
+        "id": "2de80d04-f8b3-4c83-aef7-d60fc4cee3a2",
+        "name": "Tool 3",
+        "type": "Garden tool",
+        "brand": "Brand C",
+        "model": "Model 3",
+        "availability": true,
+        "created_at": "2023-08-28T16:47:10.796Z",
+        "updated_at": "2023-08-28T13:53:22.048Z",
+        "outlet_id": "f2e04fad-4836-4d68-9508-6a95b5b9f13b"
+      },
+      {
+        "id": "20d05b3e-18fa-4e99-b692-5f0fd91429aa",
+        "name": "Tool 4",
+        "type": "Kitchen tool",
+        "brand": "Brand D",
+        "model": "Model 4",
+        "availability": false,
+        "created_at": "2023-08-29T08:59:47.266Z",
+        "updated_at": "2023-08-28T11:49:27.282Z",
+        "outlet_id": "fea4f439-c70b-4b4c-8790-27329754e0a6"
+      },
+      {
+        "id": "a7138999-f762-4d32-a771-83d778f234d6",
+        "name": "Tool 5",
+        "type": "Electronics tool",
+        "brand": "Brand E",
+        "model": "Model 5",
+        "availability": true,
+        "created_at": "2023-08-29T07:02:43.450Z",
+        "updated_at": "2023-08-29T06:00:33.613Z",
+        "outlet_id": "7549182c-66bb-43e0-a53a-e5bf7d09c86d"
+      }
+    ],
+    "rental": [
+      {
+        "id": "b2181b41-3430-4415-b536-005eaaad4423",
+        "start_date": "2023-08-29T03:08:26.558Z",
+        "end_date": "2023-08-28T22:56:03.476Z",
+        "created_at": "2023-08-28T17:29:44.214Z",
+        "updated_at": "2023-08-28T16:08:23.514Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a7138999-f762-4d32-a771-83d778f234d6"
+      },
+      {
+        "id": "39f6160e-98cb-4feb-b9d7-ca040821d3bd",
+        "start_date": "2023-08-29T04:07:39.393Z",
+        "end_date": "2023-08-28T13:03:45.715Z",
+        "created_at": "2023-08-29T01:28:02.228Z",
+        "updated_at": "2023-08-29T00:04:28.683Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2de80d04-f8b3-4c83-aef7-d60fc4cee3a2"
+      },
+      {
+        "id": "bc06a390-dd58-4261-bf83-a7f76d9587c5",
+        "start_date": "2023-08-28T18:56:49.013Z",
+        "end_date": "2023-08-29T08:33:29.344Z",
+        "created_at": "2023-08-28T20:34:44.825Z",
+        "updated_at": "2023-08-28T12:48:05.570Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "20d05b3e-18fa-4e99-b692-5f0fd91429aa"
+      },
+      {
+        "id": "556ed56e-3c02-45b7-9603-ff00544f9b4a",
+        "start_date": "2023-08-29T10:48:12.876Z",
+        "end_date": "2023-08-28T22:09:44.042Z",
+        "created_at": "2023-08-29T01:26:14.445Z",
+        "updated_at": "2023-08-29T11:01:08.369Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2de80d04-f8b3-4c83-aef7-d60fc4cee3a2"
+      },
+      {
+        "id": "a88d62cf-9269-48ef-8f87-8ae9d0be7b10",
+        "start_date": "2023-08-29T06:35:42.296Z",
+        "end_date": "2023-08-29T08:22:44.401Z",
+        "created_at": "2023-08-28T12:06:52.224Z",
+        "updated_at": "2023-08-29T00:59:26.536Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "2de80d04-f8b3-4c83-aef7-d60fc4cee3a2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c02098b6-dc45-46c5-81ea-909d1cf8e4e3",
+        "email": "Colton62@yahoo.com",
+        "firstName": "Royce",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37254699",
+        "tenantId": null
+      },
+      {
+        "reference": "740c688c-fd63-478a-b97b-a6d3d241fb76",
+        "email": "Alison_Haag@yahoo.com",
+        "firstName": "Jaime",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81267181",
+        "tenantId": null
+      },
+      {
+        "reference": "ab3f64a6-7589-4817-9265-05e8fc7d0442",
+        "email": "Shayne_Gerlach47@gmail.com",
+        "firstName": "Meghan",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d68e2cc1-dd2a-4ed7-a245-5f218c82bd0c",
+        "email": "Javon_Kuphal19@hotmail.com",
+        "firstName": "Herminia",
+        "lastName": "Ernser-Turner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a206ed98-6bf1-4b47-a6c9-37217317d9d1",
+        "email": "Aylin97@yahoo.com",
+        "firstName": "Viviane",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "fa655d01-e12b-411a-b1f3-1060f04c5d3b",
+        "name": "Outlet 1",
+        "address": "789 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-29T01:26:18.385Z",
+        "updated_at": "2023-08-28T21:54:52.692Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6a62806d-121c-430a-9c2b-5e56612bcd4b",
+        "name": "Outlet 2",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T09:47:19.758Z",
+        "updated_at": "2023-08-29T03:45:18.536Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e6bee9c-9e06-471f-aff0-27d525e8f284",
+        "name": "Outlet 3",
+        "address": "123 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-29T09:51:23.719Z",
+        "updated_at": "2023-08-29T10:45:35.699Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6a93dcf-a4c1-49f5-8a06-023ee1e4d225",
+        "name": "Outlet 4",
+        "address": "321 Pine Road",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-28T18:22:04.438Z",
+        "updated_at": "2023-08-29T02:03:17.750Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf8eea7a-31ad-42c8-97a5-c1da8a0566b5",
+        "name": "Outlet 5",
+        "address": "654 Maple Court",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19101",
+        "created_at": "2023-08-28T21:34:17.226Z",
+        "updated_at": "2023-08-28T19:09:42.719Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "c6b0c3d7-0b35-475a-9fd4-aeb243d4d6f5",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "ABC Tools",
+        "model": "Model 1",
+        "availability": false,
+        "created_at": "2023-08-28T20:19:06.539Z",
+        "updated_at": "2023-08-28T11:32:37.444Z",
+        "outlet_id": "fa655d01-e12b-411a-b1f3-1060f04c5d3b"
+      },
+      {
+        "id": "7e610ae8-a4ec-4095-a639-32cf940dd5a5",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "XYZ Equipment",
+        "model": "Model 2",
+        "availability": false,
+        "created_at": "2023-08-28T12:47:51.330Z",
+        "updated_at": "2023-08-29T08:47:49.210Z",
+        "outlet_id": "f6a93dcf-a4c1-49f5-8a06-023ee1e4d225"
+      },
+      {
+        "id": "46716a8c-108c-45df-9c31-bae3117282c7",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "123 Supplies",
+        "model": "Model 3",
+        "availability": false,
+        "created_at": "2023-08-29T06:15:23.174Z",
+        "updated_at": "2023-08-29T02:45:27.160Z",
+        "outlet_id": "9e6bee9c-9e06-471f-aff0-27d525e8f284"
+      },
+      {
+        "id": "90f0a47e-7bb0-4af9-b19f-1117af4d4075",
+        "name": "Pliers",
+        "type": "Construction Tool",
+        "brand": "Acme Hardware",
+        "model": "Model 4",
+        "availability": true,
+        "created_at": "2023-08-28T19:36:12.049Z",
+        "updated_at": "2023-08-29T05:06:40.272Z",
+        "outlet_id": "cf8eea7a-31ad-42c8-97a5-c1da8a0566b5"
+      },
+      {
+        "id": "417e2f8e-62ca-4804-9442-590d95089ad8",
+        "name": "Drill",
+        "type": "Automotive Tool",
+        "brand": "Global Instruments",
+        "model": "Model 5",
+        "availability": true,
+        "created_at": "2023-08-29T09:58:12.030Z",
+        "updated_at": "2023-08-28T22:18:49.288Z",
+        "outlet_id": "f6a93dcf-a4c1-49f5-8a06-023ee1e4d225"
+      }
+    ],
+    "rental": [
+      {
+        "id": "89da5319-b118-46f9-854b-556fa323481e",
+        "start_date": "2023-08-28T12:41:36.576Z",
+        "end_date": "2023-08-29T05:02:59.778Z",
+        "created_at": "2023-08-28T19:16:10.310Z",
+        "updated_at": "2023-08-29T00:26:59.616Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7e610ae8-a4ec-4095-a639-32cf940dd5a5"
+      },
+      {
+        "id": "ff6c4647-f0b2-4d3f-ac39-a5ddda44513c",
+        "start_date": "2023-08-28T11:47:34.311Z",
+        "end_date": "2023-08-29T07:21:33.352Z",
+        "created_at": "2023-08-28T17:29:41.640Z",
+        "updated_at": "2023-08-28T14:27:11.173Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "46716a8c-108c-45df-9c31-bae3117282c7"
+      },
+      {
+        "id": "19979895-c8c0-48a8-a740-930094d80944",
+        "start_date": "2023-08-29T05:03:12.811Z",
+        "end_date": "2023-08-28T22:15:58.295Z",
+        "created_at": "2023-08-28T20:52:45.975Z",
+        "updated_at": "2023-08-28T20:52:06.287Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7e610ae8-a4ec-4095-a639-32cf940dd5a5"
+      },
+      {
+        "id": "d86956ad-d433-4a9a-96bf-beb340e26be5",
+        "start_date": "2023-08-28T20:42:13.192Z",
+        "end_date": "2023-08-28T22:37:51.373Z",
+        "created_at": "2023-08-28T19:11:04.665Z",
+        "updated_at": "2023-08-28T16:25:41.720Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "46716a8c-108c-45df-9c31-bae3117282c7"
+      },
+      {
+        "id": "be0abac9-0b25-4fbe-b511-22dabf87e6b1",
+        "start_date": "2023-08-28T12:12:54.954Z",
+        "end_date": "2023-08-28T16:12:52.905Z",
+        "created_at": "2023-08-28T18:29:17.602Z",
+        "updated_at": "2023-08-29T05:57:55.314Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7e610ae8-a4ec-4095-a639-32cf940dd5a5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9de411cb-711a-47a0-b5d7-9febffc8d825",
+        "email": "Novella.Franecki28@gmail.com",
+        "firstName": "Bertha",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/743.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3863e33-ebb4-49ed-8ff5-57fb2ead7263",
+        "email": "Esperanza_Emard@hotmail.com",
+        "firstName": "Jailyn",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b20295d5-9219-48f3-a8d0-4e094cc73125",
+        "email": "Jayden.Legros@gmail.com",
+        "firstName": "Josianne",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/261.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17cf6266-265b-45fd-b560-d53b77e4a44a",
+        "email": "Hope.Hyatt61@hotmail.com",
+        "firstName": "Orie",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1065.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4bc8b04-c7f1-4d25-b826-9e0dd08811d9",
+        "email": "Grace29@gmail.com",
+        "firstName": "Declan",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66353497",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "c0438134-3ea6-4618-93fb-3955a3ae0113",
+        "name": "Outlet A",
+        "address": "789 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94101",
+        "created_at": "2023-08-28T18:43:29.684Z",
+        "updated_at": "2023-08-28T15:38:43.167Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f56f340a-76e5-4112-be14-2f7b5c0b0a2f",
+        "name": "Outlet B",
+        "address": "321 Oak St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "created_at": "2023-08-28T17:37:34.983Z",
+        "updated_at": "2023-08-28T12:42:15.663Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "821b3964-e4db-4665-a68f-d4d9f25757da",
+        "name": "Outlet C",
+        "address": "654 Pine St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "created_at": "2023-08-28T23:44:33.199Z",
+        "updated_at": "2023-08-28T12:53:58.493Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "46158223-1ac7-4492-b70d-4594ee4e698e",
+        "name": "Outlet D",
+        "address": "987 Maple St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101",
+        "created_at": "2023-08-28T17:33:53.874Z",
+        "updated_at": "2023-08-29T07:58:03.466Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d1759623-efcd-43e3-8e67-e2b03a888644",
+        "name": "Outlet E",
+        "address": "123 Cedar St",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30301",
+        "created_at": "2023-08-29T03:10:09.062Z",
+        "updated_at": "2023-08-28T14:54:01.607Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "6115d6b8-400b-439e-a7e2-142eb8094aae",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Craftsman",
+        "model": "12345",
+        "availability": false,
+        "created_at": "2023-08-28T21:52:24.972Z",
+        "updated_at": "2023-08-29T06:44:35.378Z",
+        "outlet_id": "46158223-1ac7-4492-b70d-4594ee4e698e"
+      },
+      {
+        "id": "3dfc1a98-e168-4606-8845-b4a74175cd5e",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "67890",
+        "availability": true,
+        "created_at": "2023-08-28T16:55:41.352Z",
+        "updated_at": "2023-08-28T20:45:46.021Z",
+        "outlet_id": "c0438134-3ea6-4618-93fb-3955a3ae0113"
+      },
+      {
+        "id": "a4362580-7607-4aa1-af70-5e0d8a03570c",
+        "name": "Wrench",
+        "type": "Measuring Tool",
+        "brand": "Stanley",
+        "model": "ABCDE",
+        "availability": false,
+        "created_at": "2023-08-28T23:44:00.774Z",
+        "updated_at": "2023-08-29T05:11:03.997Z",
+        "outlet_id": "821b3964-e4db-4665-a68f-d4d9f25757da"
+      },
+      {
+        "id": "38bcd42d-92b1-4647-b375-ce9af26b484e",
+        "name": "Pliers",
+        "type": "Cutting Tool",
+        "brand": "Milwaukee",
+        "model": "FGHIJ",
+        "availability": true,
+        "created_at": "2023-08-29T08:38:57.976Z",
+        "updated_at": "2023-08-28T13:23:35.078Z",
+        "outlet_id": "d1759623-efcd-43e3-8e67-e2b03a888644"
+      },
+      {
+        "id": "79c32ae8-ff13-45cd-b194-b3fe6fb8fef8",
+        "name": "Drill",
+        "type": "Fastening Tool",
+        "brand": "Bosch",
+        "model": "KLMNO",
+        "availability": false,
+        "created_at": "2023-08-29T05:42:37.149Z",
+        "updated_at": "2023-08-28T21:06:40.900Z",
+        "outlet_id": "821b3964-e4db-4665-a68f-d4d9f25757da"
+      }
+    ],
+    "rental": [
+      {
+        "id": "6f68453b-d174-4506-b442-f202eca8a975",
+        "start_date": "2023-08-29T03:43:29.131Z",
+        "end_date": "2023-08-29T10:46:06.599Z",
+        "created_at": "2023-08-28T15:46:56.664Z",
+        "updated_at": "2023-08-29T06:04:16.441Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a4362580-7607-4aa1-af70-5e0d8a03570c"
+      },
+      {
+        "id": "44679311-ab43-4442-bf41-582b1b02b59b",
+        "start_date": "2023-08-28T23:36:05.993Z",
+        "end_date": "2023-08-29T00:20:48.758Z",
+        "created_at": "2023-08-28T22:33:48.812Z",
+        "updated_at": "2023-08-29T09:18:25.342Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "79c32ae8-ff13-45cd-b194-b3fe6fb8fef8"
+      },
+      {
+        "id": "6bd12d95-d3b3-43e9-80c6-6f7b10b88ac6",
+        "start_date": "2023-08-28T16:57:59.811Z",
+        "end_date": "2023-08-29T00:57:47.509Z",
+        "created_at": "2023-08-29T00:51:40.575Z",
+        "updated_at": "2023-08-29T04:56:23.937Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "79c32ae8-ff13-45cd-b194-b3fe6fb8fef8"
+      },
+      {
+        "id": "7e591010-d3d7-42c0-a6fb-df7bc86b08ae",
+        "start_date": "2023-08-29T00:07:42.695Z",
+        "end_date": "2023-08-29T10:38:53.010Z",
+        "created_at": "2023-08-28T16:44:37.981Z",
+        "updated_at": "2023-08-29T10:13:07.926Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6115d6b8-400b-439e-a7e2-142eb8094aae"
+      },
+      {
+        "id": "b87469cc-6641-448a-8cab-0b45b5e68c8e",
+        "start_date": "2023-08-29T00:36:44.645Z",
+        "end_date": "2023-08-28T23:19:42.407Z",
+        "created_at": "2023-08-28T15:58:46.020Z",
+        "updated_at": "2023-08-29T05:44:03.223Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "38bcd42d-92b1-4647-b375-ce9af26b484e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "27f4d30a-a94e-4f8f-a98e-31f226825758",
+        "email": "Chadd_Oberbrunner@hotmail.com",
+        "firstName": "Rey",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11884848",
+        "tenantId": null
+      },
+      {
+        "reference": "4d11af3e-5b59-4111-aac6-6ec6a93dac72",
+        "email": "Meagan.Jerde46@gmail.com",
+        "firstName": "Leila",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/668.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "515669d8-2dc0-4f56-b9d5-8d5f4212a54b",
+        "email": "Narciso_Casper48@hotmail.com",
+        "firstName": "Heloise",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75670073",
+        "tenantId": null
+      },
+      {
+        "reference": "4e3b2538-392c-402e-9625-f0f57a95c568",
+        "email": "Myrl.Johns20@gmail.com",
+        "firstName": "Ursula",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/161.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bee0a1a-7567-482b-8774-f124af305482",
+        "email": "Jevon.Bechtelar81@gmail.com",
+        "firstName": "Mohammad",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/376.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "8d464ae1-1158-489f-b60f-9a2afc2b5ad7",
+        "name": "Outlet 1",
+        "address": "987 Main Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94101",
+        "created_at": "2023-08-28T19:54:07.193Z",
+        "updated_at": "2023-08-28T23:02:27.069Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f810c483-e5c1-4251-a574-26e9e0fd39f8",
+        "name": "Outlet 2",
+        "address": "654 Elm Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "created_at": "2023-08-29T10:25:30.997Z",
+        "updated_at": "2023-08-29T06:08:31.600Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f09ad028-67b1-4fa4-920f-bf276abb128e",
+        "name": "Outlet 3",
+        "address": "321 Oak Lane",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80201",
+        "created_at": "2023-08-28T18:24:16.121Z",
+        "updated_at": "2023-08-28T18:20:58.707Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17e6c243-eab3-4dc0-bc95-a54daa89a5fe",
+        "name": "Outlet 4",
+        "address": "789 Maple Drive",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101",
+        "created_at": "2023-08-29T02:56:48.251Z",
+        "updated_at": "2023-08-29T04:46:00.782Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "949b7351-c287-4ddf-8f2c-c0536e5c8f30",
+        "name": "Outlet 5",
+        "address": "456 Pine Road",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30301",
+        "created_at": "2023-08-28T22:04:42.006Z",
+        "updated_at": "2023-08-28T12:46:35.311Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "85315c2b-09dc-4335-93f9-e4f839b16a83",
+        "name": "Hammer",
+        "type": "Hand tool",
+        "brand": "Stanley",
+        "model": "12345",
+        "availability": true,
+        "created_at": "2023-08-28T20:39:19.771Z",
+        "updated_at": "2023-08-28T12:46:31.019Z",
+        "outlet_id": "8d464ae1-1158-489f-b60f-9a2afc2b5ad7"
+      },
+      {
+        "id": "e42a2fe0-9346-4542-a811-677422d41ad7",
+        "name": "Screwdriver",
+        "type": "Power tool",
+        "brand": "DeWalt",
+        "model": "67890",
+        "availability": true,
+        "created_at": "2023-08-28T16:58:56.228Z",
+        "updated_at": "2023-08-29T09:52:19.114Z",
+        "outlet_id": "8d464ae1-1158-489f-b60f-9a2afc2b5ad7"
+      },
+      {
+        "id": "defe6c20-6a7b-4e3f-8ff6-667e219c3fbe",
+        "name": "Wrench",
+        "type": "Cutting tool",
+        "brand": "Makita",
+        "model": "ABCDE",
+        "availability": false,
+        "created_at": "2023-08-28T21:34:23.206Z",
+        "updated_at": "2023-08-28T17:40:45.750Z",
+        "outlet_id": "f09ad028-67b1-4fa4-920f-bf276abb128e"
+      },
+      {
+        "id": "934f2dbd-3be2-4cad-a5f4-de0b374b36f6",
+        "name": "Pliers",
+        "type": "Measuring tool",
+        "brand": "Bosch",
+        "model": "FGHIJ",
+        "availability": false,
+        "created_at": "2023-08-28T21:42:29.509Z",
+        "updated_at": "2023-08-29T08:48:59.786Z",
+        "outlet_id": "f810c483-e5c1-4251-a574-26e9e0fd39f8"
+      },
+      {
+        "id": "2530596b-3906-4063-ba9e-2753886681c9",
+        "name": "Drill",
+        "type": "Fastening tool",
+        "brand": "Milwaukee",
+        "model": "KLMNO",
+        "availability": false,
+        "created_at": "2023-08-28T19:19:00.951Z",
+        "updated_at": "2023-08-29T03:39:47.913Z",
+        "outlet_id": "f09ad028-67b1-4fa4-920f-bf276abb128e"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8d5abeb3-b3e5-44c5-adea-f8e81e5938bc",
+        "start_date": "2023-08-28T18:47:17.511Z",
+        "end_date": "2023-08-28T14:08:59.619Z",
+        "created_at": "2023-08-28T13:27:16.489Z",
+        "updated_at": "2023-08-28T20:12:04.770Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "85315c2b-09dc-4335-93f9-e4f839b16a83"
+      },
+      {
+        "id": "48082067-8475-4316-8b33-f0fe2c273ce1",
+        "start_date": "2023-08-29T02:27:38.569Z",
+        "end_date": "2023-08-29T09:22:52.180Z",
+        "created_at": "2023-08-29T05:48:03.527Z",
+        "updated_at": "2023-08-28T21:28:16.215Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e42a2fe0-9346-4542-a811-677422d41ad7"
+      },
+      {
+        "id": "d1baf9e4-dd06-47a6-b785-b249978b9d00",
+        "start_date": "2023-08-29T10:51:03.442Z",
+        "end_date": "2023-08-28T16:04:47.783Z",
+        "created_at": "2023-08-29T06:39:45.854Z",
+        "updated_at": "2023-08-29T01:34:07.585Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "934f2dbd-3be2-4cad-a5f4-de0b374b36f6"
+      },
+      {
+        "id": "e833c15a-bca3-4e1b-816f-1310ef4cb6b5",
+        "start_date": "2023-08-29T07:49:21.999Z",
+        "end_date": "2023-08-28T21:46:00.520Z",
+        "created_at": "2023-08-28T23:50:34.743Z",
+        "updated_at": "2023-08-29T10:03:03.782Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "934f2dbd-3be2-4cad-a5f4-de0b374b36f6"
+      },
+      {
+        "id": "1f26d39d-ec5e-46ae-ac28-aab0ead1a802",
+        "start_date": "2023-08-28T23:04:41.508Z",
+        "end_date": "2023-08-28T19:15:05.051Z",
+        "created_at": "2023-08-29T00:09:42.193Z",
+        "updated_at": "2023-08-28T20:54:58.613Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "defe6c20-6a7b-4e3f-8ff6-667e219c3fbe"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ae579b43-8151-42ca-994b-0f7227c90fc8",
+        "email": "Eliza_Dare7@hotmail.com",
+        "firstName": "Chase",
+        "lastName": "Predovic-Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72ae1316-13c9-402f-ab91-0616dbbcfec6",
+        "email": "Thaddeus.Bauch4@gmail.com",
+        "firstName": "Emile",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/779.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f304993-51fe-4afe-9886-b6763e77a2a5",
+        "email": "Okey44@yahoo.com",
+        "firstName": "Leslie",
+        "lastName": "Marquardt-Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53017667",
+        "tenantId": null
+      },
+      {
+        "reference": "f6403004-ec50-4a8e-9c52-7801a94db9fd",
+        "email": "Gaetano.Schneider@gmail.com",
+        "firstName": "Gina",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3105270",
+        "tenantId": null
+      },
+      {
+        "reference": "e94b6fe7-3dbb-4f4f-8d41-daa029fa9d57",
+        "email": "Mikayla33@hotmail.com",
+        "firstName": "Houston",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34241687",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "85a42a7e-8de1-4f7c-be46-10833b50b1a3",
+        "name": "Outlet A",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-28T15:53:48.622Z",
+        "updated_at": "2023-08-28T21:52:26.365Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c972f7b7-e36f-4a40-be6b-8fb0361f0df1",
+        "name": "Outlet B",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T03:54:49.291Z",
+        "updated_at": "2023-08-28T22:18:19.964Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "484858f2-7cf8-445a-b8bb-7373e72a2c3f",
+        "name": "Outlet C",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-29T05:28:12.228Z",
+        "updated_at": "2023-08-29T00:54:56.015Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1cc907c6-ab69-48cf-a978-63a7838e8bc8",
+        "name": "Outlet D",
+        "address": "654 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-28T17:03:16.809Z",
+        "updated_at": "2023-08-28T11:31:48.953Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "825c813e-063e-44f1-8c16-a59649c5ce2b",
+        "name": "Outlet E",
+        "address": "321 Pine St",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33101",
+        "created_at": "2023-08-29T07:15:29.065Z",
+        "updated_at": "2023-08-29T05:16:00.311Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "0fb17691-0d88-4459-82e0-4c8348332985",
+        "name": "Hammer",
+        "type": "Hand tool",
+        "brand": "ABC Tools",
+        "model": "Model A",
+        "availability": true,
+        "created_at": "2023-08-28T13:11:00.623Z",
+        "updated_at": "2023-08-29T08:45:46.576Z",
+        "outlet_id": "85a42a7e-8de1-4f7c-be46-10833b50b1a3"
+      },
+      {
+        "id": "7c1a4abd-d335-4757-ba54-ea8c734e834d",
+        "name": "Screwdriver",
+        "type": "Power tool",
+        "brand": "XYZ Equipment",
+        "model": "Model B",
+        "availability": true,
+        "created_at": "2023-08-29T01:55:56.256Z",
+        "updated_at": "2023-08-29T01:03:34.213Z",
+        "outlet_id": "484858f2-7cf8-445a-b8bb-7373e72a2c3f"
+      },
+      {
+        "id": "837685d2-df6c-41a0-9440-0d2d8001d741",
+        "name": "Wrench",
+        "type": "Cutting tool",
+        "brand": "123 Supplies",
+        "model": "Model C",
+        "availability": true,
+        "created_at": "2023-08-29T05:35:39.695Z",
+        "updated_at": "2023-08-29T05:00:49.118Z",
+        "outlet_id": "484858f2-7cf8-445a-b8bb-7373e72a2c3f"
+      },
+      {
+        "id": "c5c3b3e7-0b8a-4159-8ad0-daec20ffce90",
+        "name": "Pliers",
+        "type": "Measuring tool",
+        "brand": "Acme Hardware",
+        "model": "Model D",
+        "availability": true,
+        "created_at": "2023-08-28T17:10:40.031Z",
+        "updated_at": "2023-08-28T16:45:44.179Z",
+        "outlet_id": "85a42a7e-8de1-4f7c-be46-10833b50b1a3"
+      },
+      {
+        "id": "a788e4c8-e9bc-41a5-9108-46670a3347dc",
+        "name": "Drill",
+        "type": "Fastening tool",
+        "brand": "Global Instruments",
+        "model": "Model E",
+        "availability": true,
+        "created_at": "2023-08-28T16:35:33.145Z",
+        "updated_at": "2023-08-28T13:52:28.952Z",
+        "outlet_id": "825c813e-063e-44f1-8c16-a59649c5ce2b"
+      }
+    ],
+    "rental": [
+      {
+        "id": "66b7dbf3-fcc6-4bae-bc75-69987c1f8c9e",
+        "start_date": "2023-08-29T02:02:43.201Z",
+        "end_date": "2023-08-29T07:13:50.992Z",
+        "created_at": "2023-08-29T00:27:09.075Z",
+        "updated_at": "2023-08-29T04:33:44.931Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a788e4c8-e9bc-41a5-9108-46670a3347dc"
+      },
+      {
+        "id": "7d99a49e-5352-4253-86ff-46b236daec7a",
+        "start_date": "2023-08-28T12:32:32.357Z",
+        "end_date": "2023-08-29T06:26:12.542Z",
+        "created_at": "2023-08-28T21:06:40.847Z",
+        "updated_at": "2023-08-29T01:07:00.452Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "837685d2-df6c-41a0-9440-0d2d8001d741"
+      },
+      {
+        "id": "cd429d86-e8b4-4625-b6a0-58b3d738227b",
+        "start_date": "2023-08-29T07:44:00.185Z",
+        "end_date": "2023-08-29T10:59:31.116Z",
+        "created_at": "2023-08-29T02:58:01.667Z",
+        "updated_at": "2023-08-28T16:59:35.694Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a788e4c8-e9bc-41a5-9108-46670a3347dc"
+      },
+      {
+        "id": "fb1c54de-1352-4898-9961-05c98a219748",
+        "start_date": "2023-08-28T19:30:33.167Z",
+        "end_date": "2023-08-28T22:51:55.614Z",
+        "created_at": "2023-08-28T22:22:07.439Z",
+        "updated_at": "2023-08-28T21:18:22.231Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "837685d2-df6c-41a0-9440-0d2d8001d741"
+      },
+      {
+        "id": "d4170a60-3dd5-4cad-ab10-491b8373ed51",
+        "start_date": "2023-08-28T15:58:28.220Z",
+        "end_date": "2023-08-29T10:08:10.216Z",
+        "created_at": "2023-08-29T06:11:32.071Z",
+        "updated_at": "2023-08-29T04:02:54.279Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "a788e4c8-e9bc-41a5-9108-46670a3347dc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c99860ef-750b-4f9c-a4a5-d354e81ab1a6",
+        "email": "Betty.Heathcote84@hotmail.com",
+        "firstName": "Ransom",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c33a187f-7aca-479c-a2f8-df3ba0f11fd9",
+        "email": "Modesta_Skiles@hotmail.com",
+        "firstName": "Jeromy",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/257.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9c3fa56-4c01-4880-b08c-4180b7e90fc5",
+        "email": "Declan.Stroman20@hotmail.com",
+        "firstName": "Breanne",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59923457",
+        "tenantId": null
+      },
+      {
+        "reference": "5767191c-cd09-4cd9-95a8-a32c4d40b33e",
+        "email": "Cleta_Wilderman@hotmail.com",
+        "firstName": "Wyman",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ead81a87-d6d0-4b09-8db1-d3ffa523a752",
+        "email": "Deon_Murphy@yahoo.com",
+        "firstName": "Erin",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1183.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "2ed54b29-8e89-4216-b6fe-d09c87b3cfb4",
+        "name": "Outlet 1",
+        "address": "789 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-29T05:15:47.142Z",
+        "updated_at": "2023-08-28T19:56:13.131Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e2ce928-8270-47cd-9ab6-7eb93563219e",
+        "name": "Outlet 2",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T02:54:47.161Z",
+        "updated_at": "2023-08-28T22:10:42.101Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49ce075e-fd76-4bb5-8e96-c68143342438",
+        "name": "Outlet 3",
+        "address": "123 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-29T00:09:45.075Z",
+        "updated_at": "2023-08-28T16:53:32.217Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4cefa6f-db08-4e41-84f9-89b68627905c",
+        "name": "Outlet 4",
+        "address": "654 Maple Drive",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-28T23:05:19.333Z",
+        "updated_at": "2023-08-29T04:48:12.452Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f9a4b5a3-965e-44cc-a953-5da20b15a4b4",
+        "name": "Outlet 5",
+        "address": "321 Pine Road",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33101",
+        "created_at": "2023-08-28T23:34:08.488Z",
+        "updated_at": "2023-08-29T04:30:24.963Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "6787181a-71e7-4542-ac0b-957a53d7b80d",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "ABC Tools",
+        "model": "Model A",
+        "availability": false,
+        "created_at": "2023-08-29T04:55:01.253Z",
+        "updated_at": "2023-08-28T19:35:55.412Z",
+        "outlet_id": "9e2ce928-8270-47cd-9ab6-7eb93563219e"
+      },
+      {
+        "id": "63e78947-9112-400f-b695-bbb4be996ce6",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "XYZ Equipment",
+        "model": "Model B",
+        "availability": true,
+        "created_at": "2023-08-29T01:40:33.154Z",
+        "updated_at": "2023-08-29T01:38:27.930Z",
+        "outlet_id": "f9a4b5a3-965e-44cc-a953-5da20b15a4b4"
+      },
+      {
+        "id": "32ed98b8-ac08-479c-bd11-ae25902a1f84",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "123 Supplies",
+        "model": "Model C",
+        "availability": false,
+        "created_at": "2023-08-29T10:28:58.772Z",
+        "updated_at": "2023-08-28T22:33:32.390Z",
+        "outlet_id": "2ed54b29-8e89-4216-b6fe-d09c87b3cfb4"
+      },
+      {
+        "id": "83c1d041-3a27-4c7d-a3b9-b28c045c751c",
+        "name": "Pliers",
+        "type": "Measuring Tool",
+        "brand": "Acme Hardware",
+        "model": "Model D",
+        "availability": false,
+        "created_at": "2023-08-29T01:09:33.363Z",
+        "updated_at": "2023-08-28T18:16:28.058Z",
+        "outlet_id": "f9a4b5a3-965e-44cc-a953-5da20b15a4b4"
+      },
+      {
+        "id": "6f6fc0c1-bd97-4748-8814-21799b218752",
+        "name": "Drill",
+        "type": "Cutting Tool",
+        "brand": "Global Instruments",
+        "model": "Model E",
+        "availability": true,
+        "created_at": "2023-08-28T20:55:34.865Z",
+        "updated_at": "2023-08-28T13:45:50.611Z",
+        "outlet_id": "49ce075e-fd76-4bb5-8e96-c68143342438"
+      }
+    ],
+    "rental": [
+      {
+        "id": "4c991423-3132-466a-a418-95d3f336755a",
+        "start_date": "2023-08-28T20:51:22.487Z",
+        "end_date": "2023-08-28T19:58:43.887Z",
+        "created_at": "2023-08-28T16:03:53.652Z",
+        "updated_at": "2023-08-29T07:59:20.056Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6787181a-71e7-4542-ac0b-957a53d7b80d"
+      },
+      {
+        "id": "e31b5413-430b-45df-8d3a-b6482430dc57",
+        "start_date": "2023-08-28T16:51:22.108Z",
+        "end_date": "2023-08-28T14:34:53.287Z",
+        "created_at": "2023-08-28T13:53:48.570Z",
+        "updated_at": "2023-08-28T20:37:05.736Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "32ed98b8-ac08-479c-bd11-ae25902a1f84"
+      },
+      {
+        "id": "d4509a8f-60b5-4de1-8531-16346e039087",
+        "start_date": "2023-08-28T13:02:11.818Z",
+        "end_date": "2023-08-28T19:16:48.459Z",
+        "created_at": "2023-08-28T23:24:07.339Z",
+        "updated_at": "2023-08-28T12:31:01.656Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "6787181a-71e7-4542-ac0b-957a53d7b80d"
+      },
+      {
+        "id": "85ea733d-687b-4049-b265-fb128f3c6da6",
+        "start_date": "2023-08-29T06:55:07.131Z",
+        "end_date": "2023-08-29T06:35:59.435Z",
+        "created_at": "2023-08-29T08:24:01.680Z",
+        "updated_at": "2023-08-29T00:10:22.059Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "63e78947-9112-400f-b695-bbb4be996ce6"
+      },
+      {
+        "id": "ee00e58d-bbc1-4f92-900e-b8dc27b8a9ee",
+        "start_date": "2023-08-28T12:21:02.734Z",
+        "end_date": "2023-08-29T06:45:31.915Z",
+        "created_at": "2023-08-28T14:31:29.241Z",
+        "updated_at": "2023-08-28T12:23:21.357Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "32ed98b8-ac08-479c-bd11-ae25902a1f84"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14a84772-2cc5-40fa-89b4-38279adb9647",
+        "email": "Trudie.VonRueden56@yahoo.com",
+        "firstName": "Sabryna",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76302530",
+        "tenantId": null
+      },
+      {
+        "reference": "91431edf-8baf-40ee-85de-912b57b2d89d",
+        "email": "Mayra.Kirlin15@yahoo.com",
+        "firstName": "Eloise",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59541826",
+        "tenantId": null
+      },
+      {
+        "reference": "d42055a0-6a7f-46e8-a9af-4d42fe0a183e",
+        "email": "Lowell.Wintheiser@gmail.com",
+        "firstName": "Jean",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78879212",
+        "tenantId": null
+      },
+      {
+        "reference": "ee4f16a6-da3a-4ae8-91c6-b0d5003665a4",
+        "email": "Kenton30@hotmail.com",
+        "firstName": "Alta",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25806039",
+        "tenantId": null
+      },
+      {
+        "reference": "260a7e72-6ad4-47c1-98a6-2947a0bfa3f7",
+        "email": "Rosendo_Cruickshank@hotmail.com",
+        "firstName": "Virgie",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/515.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "666e6d61-efb8-4b7f-8168-7008ab0ce241",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-28T12:08:49.957Z",
+        "updated_at": "2023-08-29T03:22:37.655Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "636cb9bb-17c8-4dd7-aa32-cccc8cfd947e",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T01:07:54.723Z",
+        "updated_at": "2023-08-29T08:53:49.581Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b864da98-491a-4a56-b5b6-2bb0884316c4",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-29T09:36:48.817Z",
+        "updated_at": "2023-08-28T14:02:09.746Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "726d6999-b8c7-42a3-a5f3-473a0a8ab1ab",
+        "name": "Outlet 4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-28T12:18:34.648Z",
+        "updated_at": "2023-08-29T06:33:17.326Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a8f212ff-261a-4a20-b731-a781a411b51a",
+        "name": "Outlet 5",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19101",
+        "created_at": "2023-08-29T10:21:29.790Z",
+        "updated_at": "2023-08-29T08:21:16.513Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "4797f114-db29-4cad-8054-b0a89a6ac597",
+        "name": "Hammer",
+        "type": "Hand tool",
+        "brand": "Stanley",
+        "model": "A1",
+        "availability": false,
+        "created_at": "2023-08-28T17:50:20.328Z",
+        "updated_at": "2023-08-28T22:52:32.113Z",
+        "outlet_id": "636cb9bb-17c8-4dd7-aa32-cccc8cfd947e"
+      },
+      {
+        "id": "d93910cb-9474-4141-a8a6-3b2e20afec0e",
+        "name": "Screwdriver",
+        "type": "Power tool",
+        "brand": "DeWalt",
+        "model": "B2",
+        "availability": true,
+        "created_at": "2023-08-28T23:36:45.074Z",
+        "updated_at": "2023-08-29T08:52:09.818Z",
+        "outlet_id": "b864da98-491a-4a56-b5b6-2bb0884316c4"
+      },
+      {
+        "id": "7874447d-ac75-4e8e-9645-7a1e1e919ca1",
+        "name": "Wrench",
+        "type": "Measuring tool",
+        "brand": "Craftsman",
+        "model": "C3",
+        "availability": true,
+        "created_at": "2023-08-29T09:07:15.772Z",
+        "updated_at": "2023-08-29T00:13:59.617Z",
+        "outlet_id": "666e6d61-efb8-4b7f-8168-7008ab0ce241"
+      },
+      {
+        "id": "752e9513-c680-44d0-b0aa-35b38359b986",
+        "name": "Pliers",
+        "type": "Cutting tool",
+        "brand": "Milwaukee",
+        "model": "D4",
+        "availability": true,
+        "created_at": "2023-08-28T14:41:11.876Z",
+        "updated_at": "2023-08-29T06:23:23.707Z",
+        "outlet_id": "a8f212ff-261a-4a20-b731-a781a411b51a"
+      },
+      {
+        "id": "e7849ae0-94de-48cb-9e6d-c35034dec456",
+        "name": "Drill",
+        "type": "Fastening tool",
+        "brand": "Makita",
+        "model": "E5",
+        "availability": true,
+        "created_at": "2023-08-28T11:25:57.458Z",
+        "updated_at": "2023-08-28T12:04:03.970Z",
+        "outlet_id": "666e6d61-efb8-4b7f-8168-7008ab0ce241"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8421b77e-d0e1-4b54-a46c-2f7e64d6c413",
+        "start_date": "2023-08-28T12:12:16.959Z",
+        "end_date": "2023-08-29T00:44:55.180Z",
+        "created_at": "2023-08-29T06:53:20.128Z",
+        "updated_at": "2023-08-28T20:47:37.655Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "752e9513-c680-44d0-b0aa-35b38359b986"
+      },
+      {
+        "id": "5afb73f7-730b-4dd1-a773-61df2c5a4cb5",
+        "start_date": "2023-08-28T15:27:47.499Z",
+        "end_date": "2023-08-28T22:22:28.304Z",
+        "created_at": "2023-08-29T08:51:31.184Z",
+        "updated_at": "2023-08-28T16:28:42.295Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "d93910cb-9474-4141-a8a6-3b2e20afec0e"
+      },
+      {
+        "id": "2a6e730b-d1ad-44a8-a1c5-469abaace1c5",
+        "start_date": "2023-08-28T14:35:45.577Z",
+        "end_date": "2023-08-28T12:06:14.575Z",
+        "created_at": "2023-08-28T13:07:54.926Z",
+        "updated_at": "2023-08-28T22:04:32.320Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7874447d-ac75-4e8e-9645-7a1e1e919ca1"
+      },
+      {
+        "id": "d14ca753-137b-42e0-9511-96123c9a5130",
+        "start_date": "2023-08-29T02:07:34.889Z",
+        "end_date": "2023-08-28T23:19:23.343Z",
+        "created_at": "2023-08-29T01:06:34.287Z",
+        "updated_at": "2023-08-28T16:09:51.113Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "752e9513-c680-44d0-b0aa-35b38359b986"
+      },
+      {
+        "id": "763efa9c-9b00-4da8-a136-c7c484fb137a",
+        "start_date": "2023-08-29T00:33:46.998Z",
+        "end_date": "2023-08-28T11:55:26.341Z",
+        "created_at": "2023-08-29T10:54:34.160Z",
+        "updated_at": "2023-08-29T02:52:14.214Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "e7849ae0-94de-48cb-9e6d-c35034dec456"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d02ab75-f082-4565-9c9f-bf793fc7c3c8",
+        "email": "Eveline.Jerde@hotmail.com",
+        "firstName": "Beryl",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/40.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "812f6bf2-962d-4159-b1f7-3788c6da1348",
+        "email": "Erik.Yost@yahoo.com",
+        "firstName": "Dixie",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64676423",
+        "tenantId": null
+      },
+      {
+        "reference": "1b1f8224-58b1-4b99-9615-6d7e6601fd93",
+        "email": "Gabriel94@hotmail.com",
+        "firstName": "Rebeca",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88773138",
+        "tenantId": null
+      },
+      {
+        "reference": "380ff88d-38a5-4a26-8272-d438f7738739",
+        "email": "Constantin.Lesch@yahoo.com",
+        "firstName": "Madalyn",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31468045",
+        "tenantId": null
+      },
+      {
+        "reference": "d5c1842c-250d-44b2-bced-0b293fd51777",
+        "email": "Linnie.Bartoletti@gmail.com",
+        "firstName": "Arnoldo",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62224705",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "b9581dd9-e5e0-4b08-8ed5-56c2b63d3b09",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-28T17:46:13.108Z",
+        "updated_at": "2023-08-28T16:02:35.216Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2438c337-1610-4fe8-ae6a-2a7c873f20bd",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T10:31:35.175Z",
+        "updated_at": "2023-08-29T02:40:46.733Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca0d7dd4-6be6-4905-a03f-3383bd0fed88",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-28T19:08:49.679Z",
+        "updated_at": "2023-08-29T08:59:49.693Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a553d08c-6c4a-4abc-ac60-4d02f089f5b4",
+        "name": "Outlet 4",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-29T00:04:34.279Z",
+        "updated_at": "2023-08-29T08:47:33.603Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fd99d911-6110-4cda-aa77-102aff9bbd78",
+        "name": "Outlet 5",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85001",
+        "created_at": "2023-08-28T21:22:23.157Z",
+        "updated_at": "2023-08-28T22:16:18.775Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "5e007145-ee5d-4f86-ad2d-fc149d5666eb",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "12345",
+        "availability": true,
+        "created_at": "2023-08-28T17:46:26.177Z",
+        "updated_at": "2023-08-29T03:52:17.480Z",
+        "outlet_id": "fd99d911-6110-4cda-aa77-102aff9bbd78"
+      },
+      {
+        "id": "fb6f9f83-d4c1-496a-8111-dec44ecb456f",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "67890",
+        "availability": true,
+        "created_at": "2023-08-28T14:52:23.917Z",
+        "updated_at": "2023-08-29T03:22:06.689Z",
+        "outlet_id": "2438c337-1610-4fe8-ae6a-2a7c873f20bd"
+      },
+      {
+        "id": "460e9886-d633-440e-98d7-81a136539cae",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "ABCDE",
+        "availability": false,
+        "created_at": "2023-08-29T06:43:16.639Z",
+        "updated_at": "2023-08-28T18:29:37.944Z",
+        "outlet_id": "2438c337-1610-4fe8-ae6a-2a7c873f20bd"
+      },
+      {
+        "id": "61dfb210-f82a-4793-b50e-f12250eee15a",
+        "name": "Pliers",
+        "type": "Measuring Tool",
+        "brand": "Makita",
+        "model": "FGHIJ",
+        "availability": true,
+        "created_at": "2023-08-28T21:14:55.767Z",
+        "updated_at": "2023-08-28T22:37:58.203Z",
+        "outlet_id": "a553d08c-6c4a-4abc-ac60-4d02f089f5b4"
+      },
+      {
+        "id": "dbb55b63-2f75-4a3a-afa4-10fa5fe4b3fd",
+        "name": "Drill",
+        "type": "Cutting Tool",
+        "brand": "Bosch",
+        "model": "KLMNO",
+        "availability": true,
+        "created_at": "2023-08-28T23:31:35.384Z",
+        "updated_at": "2023-08-28T18:29:27.826Z",
+        "outlet_id": "2438c337-1610-4fe8-ae6a-2a7c873f20bd"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8c400a0b-00c3-4ab5-9222-3d8331feb9f5",
+        "start_date": "2023-08-28T11:07:51.555Z",
+        "end_date": "2023-08-29T01:04:50.862Z",
+        "created_at": "2023-08-29T06:21:32.358Z",
+        "updated_at": "2023-08-29T02:18:00.072Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "460e9886-d633-440e-98d7-81a136539cae"
+      },
+      {
+        "id": "903d0bf8-8034-4f0c-ba61-a32d4bca163f",
+        "start_date": "2023-08-29T02:21:24.012Z",
+        "end_date": "2023-08-29T01:17:14.861Z",
+        "created_at": "2023-08-29T04:57:40.374Z",
+        "updated_at": "2023-08-28T19:04:56.008Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "460e9886-d633-440e-98d7-81a136539cae"
+      },
+      {
+        "id": "a3d658e2-bcc1-4104-8cb1-7a0e1ba5504f",
+        "start_date": "2023-08-29T08:09:52.446Z",
+        "end_date": "2023-08-29T06:29:42.524Z",
+        "created_at": "2023-08-29T05:00:44.013Z",
+        "updated_at": "2023-08-29T07:10:56.370Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "5e007145-ee5d-4f86-ad2d-fc149d5666eb"
+      },
+      {
+        "id": "952522b1-0f9b-4889-a5ed-13d500d8ab9f",
+        "start_date": "2023-08-28T13:45:51.239Z",
+        "end_date": "2023-08-28T11:57:40.800Z",
+        "created_at": "2023-08-29T10:28:42.207Z",
+        "updated_at": "2023-08-29T03:07:30.429Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "fb6f9f83-d4c1-496a-8111-dec44ecb456f"
+      },
+      {
+        "id": "f0efb1e6-f4d3-42fc-ad42-865350cda24d",
+        "start_date": "2023-08-28T22:10:35.624Z",
+        "end_date": "2023-08-28T22:07:37.662Z",
+        "created_at": "2023-08-29T00:09:03.082Z",
+        "updated_at": "2023-08-29T07:07:57.008Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "5e007145-ee5d-4f86-ad2d-fc149d5666eb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "11ff6ba4-1da8-4d49-a22e-5feb24e6a44d",
+        "email": "Juana_Buckridge44@gmail.com",
+        "firstName": "Ella",
+        "lastName": "Stark-Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe7f480d-b274-463a-89bd-eb22f575a16f",
+        "email": "Delphia.Balistreri0@hotmail.com",
+        "firstName": "Kathryn",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed681bed-ee1d-487c-875a-fa6e5b0d9e8a",
+        "email": "Benton_Berge@gmail.com",
+        "firstName": "Kaylah",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87658734",
+        "tenantId": null
+      },
+      {
+        "reference": "42fa8037-a8c3-42bc-ac7a-82f434215f35",
+        "email": "Javonte_Batz@yahoo.com",
+        "firstName": "Cordia",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/500.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "766c7974-c85b-4742-80c5-416f95fcfad5",
+        "email": "Raquel.Ankunding@gmail.com",
+        "firstName": "Maya",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "2986aa9b-28be-492f-ae88-6820f77d0afe",
+        "name": "Outlet 1",
+        "address": "111 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "created_at": "2023-08-29T00:03:14.295Z",
+        "updated_at": "2023-08-28T14:32:58.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c012dcc0-fb5f-4813-918c-966ec5741e7b",
+        "name": "Outlet 2",
+        "address": "222 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "created_at": "2023-08-29T07:55:57.778Z",
+        "updated_at": "2023-08-28T19:55:14.029Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08fda0a5-96f3-4e3b-ac60-d31e60040981",
+        "name": "Outlet 3",
+        "address": "333 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "created_at": "2023-08-29T08:12:25.221Z",
+        "updated_at": "2023-08-29T01:07:39.582Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "71c466fe-49a5-416b-bf43-a943b8992998",
+        "name": "Outlet 4",
+        "address": "444 Pine Road",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "created_at": "2023-08-28T15:36:43.368Z",
+        "updated_at": "2023-08-29T00:51:53.576Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a74eb64d-ca8a-4a9c-ba6d-f751f111d2c6",
+        "name": "Outlet 5",
+        "address": "555 Maple Drive",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19101",
+        "created_at": "2023-08-28T14:43:16.331Z",
+        "updated_at": "2023-08-29T08:21:41.497Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "7ce3515c-f95d-43ec-adad-12f388801385",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "A1",
+        "availability": false,
+        "created_at": "2023-08-28T19:14:09.028Z",
+        "updated_at": "2023-08-28T19:05:07.925Z",
+        "outlet_id": "a74eb64d-ca8a-4a9c-ba6d-f751f111d2c6"
+      },
+      {
+        "id": "1416c2e6-55c7-49f1-8174-cc86082a9c30",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "B2",
+        "availability": true,
+        "created_at": "2023-08-28T13:06:16.320Z",
+        "updated_at": "2023-08-28T11:38:14.181Z",
+        "outlet_id": "a74eb64d-ca8a-4a9c-ba6d-f751f111d2c6"
+      },
+      {
+        "id": "bc5c59be-9fc3-49f6-b1ba-fa4db00cac83",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "C3",
+        "availability": true,
+        "created_at": "2023-08-29T03:22:38.126Z",
+        "updated_at": "2023-08-29T10:04:47.491Z",
+        "outlet_id": "08fda0a5-96f3-4e3b-ac60-d31e60040981"
+      },
+      {
+        "id": "3bc67404-631f-4fe0-8d0b-ea86c90432b1",
+        "name": "Pliers",
+        "type": "Construction Tool",
+        "brand": "Makita",
+        "model": "D4",
+        "availability": true,
+        "created_at": "2023-08-29T04:00:45.440Z",
+        "updated_at": "2023-08-29T10:08:24.092Z",
+        "outlet_id": "2986aa9b-28be-492f-ae88-6820f77d0afe"
+      },
+      {
+        "id": "8525fb26-e478-4d3a-9831-47c3ad4de099",
+        "name": "Drill",
+        "type": "Automotive Tool",
+        "brand": "Bosch",
+        "model": "E5",
+        "availability": true,
+        "created_at": "2023-08-28T21:47:06.466Z",
+        "updated_at": "2023-08-28T19:22:05.246Z",
+        "outlet_id": "2986aa9b-28be-492f-ae88-6820f77d0afe"
+      }
+    ],
+    "rental": [
+      {
+        "id": "530a94aa-d548-419a-a309-80054c9582b8",
+        "start_date": "2023-08-29T00:15:10.071Z",
+        "end_date": "2023-08-29T06:03:49.695Z",
+        "created_at": "2023-08-28T20:44:50.161Z",
+        "updated_at": "2023-08-28T16:28:07.793Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "bc5c59be-9fc3-49f6-b1ba-fa4db00cac83"
+      },
+      {
+        "id": "529685a2-1eea-42c4-a69b-ff37d5241d51",
+        "start_date": "2023-08-28T12:15:11.719Z",
+        "end_date": "2023-08-28T20:04:43.235Z",
+        "created_at": "2023-08-29T07:45:03.690Z",
+        "updated_at": "2023-08-29T10:49:24.616Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "1416c2e6-55c7-49f1-8174-cc86082a9c30"
+      },
+      {
+        "id": "15797387-fc35-47d2-8e23-fabc1b2df04c",
+        "start_date": "2023-08-29T08:38:13.087Z",
+        "end_date": "2023-08-29T07:28:27.953Z",
+        "created_at": "2023-08-28T17:55:57.858Z",
+        "updated_at": "2023-08-29T05:59:20.462Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "3bc67404-631f-4fe0-8d0b-ea86c90432b1"
+      },
+      {
+        "id": "20ed3e02-77ef-4cc8-b2fb-fa22ad315adf",
+        "start_date": "2023-08-29T07:35:38.618Z",
+        "end_date": "2023-08-29T01:07:08.534Z",
+        "created_at": "2023-08-29T00:25:48.931Z",
+        "updated_at": "2023-08-29T09:37:17.802Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "7ce3515c-f95d-43ec-adad-12f388801385"
+      },
+      {
+        "id": "da5f44c5-3f29-4dfd-94de-214379d61417",
+        "start_date": "2023-08-28T13:14:56.380Z",
+        "end_date": "2023-08-28T12:02:32.022Z",
+        "created_at": "2023-08-29T03:35:42.375Z",
+        "updated_at": "2023-08-29T10:19:41.184Z",
+        "customer_id": "user_entity_pk",
+        "tool_id": "1416c2e6-55c7-49f1-8174-cc86082a9c30"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "93731a56-6740-4ae8-b9b5-111b24d0b281",
+        "email": "Ellsworth95@gmail.com",
+        "firstName": "Rebekah",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55576495",
+        "tenantId": null
+      },
+      {
+        "reference": "b5b8de23-7d56-43d9-a60c-66e1e1af565b",
+        "email": "Vallie.Rosenbaum76@gmail.com",
+        "firstName": "Myrtis",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21639745",
+        "tenantId": null
+      },
+      {
+        "reference": "d531208c-eda4-4fd9-9575-13383e211949",
+        "email": "Jerome.Hagenes57@hotmail.com",
+        "firstName": "Jed",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/262.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "912a428a-b0fa-4613-9ca6-7405943d32f5",
+        "email": "Mason.Lockman@hotmail.com",
+        "firstName": "Leonie",
+        "lastName": "Hammes-Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97315390",
+        "tenantId": null
+      },
+      {
+        "reference": "33992ebc-8129-47fe-b180-43af769b6f4c",
+        "email": "Xzavier29@hotmail.com",
+        "firstName": "Savanna",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11878633",
+        "tenantId": null
+      }
+    ]
+  }
+]
